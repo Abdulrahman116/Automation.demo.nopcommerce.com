@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="tests" thread-count="2">
+    <test name="Regression with chrome" parallel="classes" thread-count="4">
+        <parameter name="browser" value="headlesschrome"></parameter>
+        <classes>
+            <class name="login.LoginTests"></class>
+            <class name="alerts.AlertsTests"></class>
+            <class name="dragAndDrop.DragAndDropTests"></class>
+            <class name="forgetPassword.ForgetPasswordTests"></class>
+            <class name="dropdown.DropdownTests"></class>
+            <class name="wait.daynamicLoadingTests"></class>
+            <class name="hover.HoverTests"></class>
+        </classes>
+    </test>
+    <!--<test name="Regression with firefox" parallel="classes" thread-count="4">
+        <parameter name="browser" value="headlessfirefox"></parameter>
+        <classes>
+            <class name="login.LoginTests"></class>
+            <class name="alerts.AlertsTests"></class>
+            <class name="dragAndDrop.DragAndDropTests"></class>
+            <class name="forgetPassword.ForgetPasswordTests"></class>
+            <class name="dropdown.DropdownTests"></class>
+            <class name="wait.daynamicLoadingTests"></class>
+            <class name="hover.HoverTests"></class>
+        </classes>
+    </test>-->
+</suite>
