@@ -20,7 +20,7 @@ public class BaseTests {
     public HomePage homePage;
     UtilTests utilTests;
 
-    String myWebsite = "https://the-internet.herokuapp.com/";
+    String myWebsite = "https://demo.nopcommerce.com/";
 
     @BeforeClass
     @Parameters("browser")
