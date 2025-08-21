@@ -4,7 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7365881a-1572-4217-bbcb-0602bb5a43ba" name="Changes" comment="" />
+    <list default="true" id="7365881a-1572-4217-bbcb-0602bb5a43ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/login/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/MethodHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/MethodHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DragAndDropPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropdownPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DynamicLoadingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/EntryAdPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ForgetPasswordPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HoverPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/InternalServerErrorPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/JavaScriptAlertPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/PageOneForElementOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/PageOneForElementTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/UploadFilePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/WYSIWYGEditorPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/FigureCaption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/MethodHandling.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/MethodHandling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/alerts/AlertsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dragAndDrop/DragAndDropTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dropdown/DropdownTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/forgetPassword/ForgetPasswordTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/frame/FrameTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hover/HoverTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/login/LoginTestDataDriven.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/login/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/login/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/modal/ModalTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uploadFile/UploadFileTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wait/daynamicLoadingTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +91,7 @@
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UploadFileTests.testUploadFile">
+  <component name="RunManager" selected="TestNG.LoginTests.testLoginSuccessfully">
     <configuration name="C:/Users/Abdulrahman Alaa/IdeaProjects/untitled1/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
@@ -82,6 +120,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTests.testLoginSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
+      <option name="METHOD_NAME" value="testLoginSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ModalTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <extension name="coverage">
@@ -93,24 +149,6 @@
       <option name="PACKAGE_NAME" value="modal" />
       <option name="MAIN_CLASS_NAME" value="modal.ModalTests" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ModalTests.closeTheAd" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modal" />
-      <option name="MAIN_CLASS_NAME" value="modal.ModalTests" />
-      <option name="METHOD_NAME" value="closeTheAd" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -137,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTests.testLoginSuccessfully" />
         <item itemvalue="TestNG.UploadFileTests.testUploadFile" />
         <item itemvalue="TestNG.C:/Users/Abdulrahman Alaa/IdeaProjects/untitled1/TestNG.xml" />
         <item itemvalue="TestNG.LoginTests.testInvalidUsername" />
         <item itemvalue="TestNG.ModalTests" />
-        <item itemvalue="TestNG.ModalTests.closeTheAd" />
       </list>
     </recent_temporary>
   </component>

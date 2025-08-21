@@ -7,15 +7,15 @@ import utils.MethodHandling;
 public class HomePage extends MethodHandling{
 
 
-    //private By formAuthentication = By.linkText("Form Authentication");
+    private By loginButton = By.linkText("Log in");
 
 
     public HomePage(WebDriver driver){
         super(driver);
     }
 
-    /*public LoginPage clickOnFormAuthenticationLink(){
-        click(formAuthentication);
+    public LoginPage clickOnLoginButton(){
+        click(loginButton);
         return new LoginPage(driver);
-    }*/
+    }
 }

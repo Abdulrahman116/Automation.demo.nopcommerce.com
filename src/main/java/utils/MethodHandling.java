@@ -108,12 +108,12 @@ public class MethodHandling {
         driver.findElement(locator2).click();
     }
 
-    protected FigureCaption hoverOverFigure(int index, By locator1, By locator2) {
+    /*protected FigureCaption hoverOverFigure(int index, By locator1, By locator2) {
         actions = new Actions(driver);
         WebElement figureImage = driver.findElements(locator1).get(index - 1);
         actions.moveToElement(figureImage).build().perform();
         return new FigureCaption(figureImage.findElement(locator2));
-    }
+    }*/
 
     protected void switchToFrame(String frameName) {
         driver.switchTo().frame(frameName);
