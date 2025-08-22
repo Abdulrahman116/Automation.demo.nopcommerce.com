@@ -13,6 +13,9 @@ public class IPhonePage extends MethodHandling{
     private By submitReviewButton = By.id("add-review");
     private By reviewSuccessfullyAddedMessage =
             By.xpath("//p[contains(text() ,'Product review is successfully added.')]");
+    private By requiredTitleReviewMessage =
+            By.xpath("//span[contains(text() ,'Review title is required.')]");
+
     public IPhonePage(WebDriver driver) {
         super(driver);
     }
@@ -25,7 +28,17 @@ public class IPhonePage extends MethodHandling{
         click(rating);
         click(submitReviewButton);
     }
+    public void addReviewForIPhoneFail(String reviewText){
+
+        click(addReviewLinkText);
+        sendKeys(reviewTextBox, reviewText);
+        click(rating);
+        click(submitReviewButton);
+    }
     public String getValidationMessage(){
         return getText(reviewSuccessfullyAddedMessage);
+    }
+    public String getValidationMessageFail(){
+        return getText(requiredTitleReviewMessage);
     }
 }
