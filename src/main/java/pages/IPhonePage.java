@@ -15,6 +15,7 @@ public class IPhonePage extends MethodHandling{
             By.xpath("//p[contains(text() ,'Product review is successfully added.')]");
     private By requiredTitleReviewMessage =
             By.xpath("//span[contains(text() ,'Review title is required.')]");
+    private By emailFriendButton = By.xpath("//button[contains(text() ,'Email a friend')]");
 
     public IPhonePage(WebDriver driver) {
         super(driver);
@@ -34,6 +35,10 @@ public class IPhonePage extends MethodHandling{
         sendKeys(reviewTextBox, reviewText);
         click(rating);
         click(submitReviewButton);
+    }
+    public EmailFriendPage clickOnEmailFriend(){
+        click(emailFriendButton);
+        return new EmailFriendPage(driver);
     }
     public String getValidationMessage(){
         return getText(reviewSuccessfullyAddedMessage);
