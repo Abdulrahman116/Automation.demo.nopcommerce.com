@@ -51,14 +51,15 @@ public class BaseTests {
         }
 
         driver.manage().window().maximize();
-        goHome();
+        //goHome();
+        driver.get(myWebsite);
         homePage = new HomePage(driver);
     }
 
-    @BeforeMethod
+    /*@BeforeMethod
     public void goHome() {
         driver.get(myWebsite);
-    }
+    }*/
     @AfterMethod
     public void setStatus(Method method, ITestResult result) throws IOException {
         utilTests = new UtilTests(driver);
