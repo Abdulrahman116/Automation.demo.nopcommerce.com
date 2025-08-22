@@ -4,7 +4,7 @@
     <test name="Regression with chrome" parallel="classes" thread-count="4">
         <parameter name="browser" value="headlesschrome"></parameter>
         <classes>
-            <class name="login.LoginTests"></class>
+            <class name="addReview.AddReviewTestPass"></class>
         </classes>
     </test>
 </suite>

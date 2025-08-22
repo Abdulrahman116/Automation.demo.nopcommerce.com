@@ -11,6 +11,7 @@ public class LoginPage extends MethodHandling {
     private By loginButton = By.xpath("//button[contains(text(),'Log in')]");
 
 
+
     public LoginPage(WebDriver driver) {
         super(driver);
     }

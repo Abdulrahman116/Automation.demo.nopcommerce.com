@@ -8,14 +8,29 @@ public class HomePage extends MethodHandling{
 
 
     private By loginButton = By.linkText("Log in");
+    private By registerButton = By.linkText("Register");
+    private By searchTextBox = By.id("small-searchterms");
+    private By IPhone16 = By.xpath("//span[contains(text(),'Apple iPhone 16 128GB')]");
 
 
     public HomePage(WebDriver driver){
         super(driver);
     }
 
+    public IPhonePage searchForProduct(String product){
+
+        sendKeys(searchTextBox, product);
+        click(IPhone16);
+        return new IPhonePage(driver);
+    }
     public LoginPage clickOnLoginButton(){
+
         click(loginButton);
         return new LoginPage(driver);
+    }
+    public RegisterPage clickOnRegisterButton(){
+
+        click(registerButton);
+        return new RegisterPage(driver);
     }
 }
