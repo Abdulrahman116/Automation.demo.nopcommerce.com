@@ -7,13 +7,12 @@ import org.testng.annotations.Test;
 import pages.IPhonePage;
 import pages.LoginPage;
 import pages.RegisterPage;
+
 import static org.testng.Assert.assertTrue;
 
-public class AddReviewTestPass extends BaseTests {
+public class AddReviewTestFail extends BaseTests {
 
-    Faker faker;  String email;  String password;  String product;  String fName;  String lName; String reviewTitle;
-    String reviewText;
-
+    Faker faker;  String email;  String password;  String product;  String fName;  String lName;  String reviewText;
     IPhonePage iPhonePage;
 
     @BeforeClass
@@ -21,11 +20,12 @@ public class AddReviewTestPass extends BaseTests {
         faker = new Faker();
 
         fName = faker.name().firstName();  lName = faker.name().lastName();  email = faker.internet().emailAddress();
-        reviewTitle = faker.commerce().material(); reviewText = faker.commerce().material();
+        reviewText = faker.commerce().material();
         password = faker.internet().password(8, 12,
                 true, true, true);
         product = "apple";
     }
+
     @Test(priority = 1)
     public void testRegisterSuccessfully() {
 
@@ -43,11 +43,13 @@ public class AddReviewTestPass extends BaseTests {
         iPhonePage = homePage.searchForProduct(product);
     }
     @Test(priority = 4)
-    public void testAddReviewSuccessfully(){
-        iPhonePage.addReviewForIPhone(reviewTitle , reviewText);
-        String actualResult = iPhonePage.getValidationMessage();
-        String expectedResult = "Product review is successfully added.";
+    public void testAddReviewSuccessfully() throws InterruptedException {
+        iPhonePage.addReviewForIPhoneFail(reviewText);
+        String actualResult = iPhonePage.getValidationMessageFail();
+        String expectedResult = "Review title is required.";
         assertTrue(actualResult.contains(expectedResult));
+        Thread.sleep(5000);
     }
+
 
 }
