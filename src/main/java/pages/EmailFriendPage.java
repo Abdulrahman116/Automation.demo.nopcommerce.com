@@ -10,6 +10,7 @@ public class EmailFriendPage extends MethodHandling {
     private By personalMessageTextBox = By.id("PersonalMessage");
     private By sendEmailButton = By.xpath("//button[contains(text() ,'Send email')]");
     private By sendEmailSuccessfullyMessage = By.xpath("//div[contains(text() ,'Your message has been sent.')]");
+    private By sendEmailUnsuccessfullyMessage = By.id("FriendEmail-error");
 
     public EmailFriendPage(WebDriver driver) {
         super(driver);
@@ -21,6 +22,9 @@ public class EmailFriendPage extends MethodHandling {
     }
     public String getValidationMessagePass(){
         return getText(sendEmailSuccessfullyMessage);
+    }
+    public String getValidationMessageFail(){
+        return getText(sendEmailUnsuccessfullyMessage);
     }
 
 }

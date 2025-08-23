@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7365881a-1572-4217-bbcb-0602bb5a43ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/EmailFriendPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/emailFriend/SendEmailTestPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/emailFriend/SendEmailTestFail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/testSearchTheProduct.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testSearchTheProduct.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/IPhonePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/IPhonePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/IPhonePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/IPhonePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EmailFriendPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/EmailFriendPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SendEmailTestPass">
+  <component name="RunManager" selected="TestNG.SendEmailTestFail">
     <configuration name="AddReviewTestFail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <extension name="coverage">
@@ -96,24 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddReviewTestPass.testLoginSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="untitled1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addReview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="addReview.AddReviewTestPass" />
-      <option name="METHOD_NAME" value="testLoginSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AddReviewTestPass.testRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <extension name="coverage">
@@ -126,6 +104,23 @@
       <option name="MAIN_CLASS_NAME" value="addReview.AddReviewTestPass" />
       <option name="METHOD_NAME" value="testRegisterSuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendEmailTestFail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="untitled1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="emailFriend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="emailFriend" />
+      <option name="MAIN_CLASS_NAME" value="emailFriend.SendEmailTestFail" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -151,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SendEmailTestFail" />
         <item itemvalue="TestNG.SendEmailTestPass" />
         <item itemvalue="TestNG.AddReviewTestFail" />
         <item itemvalue="TestNG.AddReviewTestPass" />
         <item itemvalue="TestNG.AddReviewTestPass.testRegisterSuccessfully" />
-        <item itemvalue="TestNG.AddReviewTestPass.testLoginSuccessfully" />
       </list>
     </recent_temporary>
   </component>
