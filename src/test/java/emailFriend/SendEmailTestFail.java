@@ -44,7 +44,7 @@ public class SendEmailTestFail extends BaseTests{
         iPhonePage = homePage.searchForProduct(product);
     }
     @Test(priority = 4)
-    public void testEmailFriendPass(){
+    public void testEmailFriendFail(){
         EmailFriendPage emailFriendPage = iPhonePage.clickOnEmailFriend();
         emailFriendPage.sendEmailSuccessfully(friendEmail, personalMessage);
         String actualResult = emailFriendPage.getValidationMessageFail();
