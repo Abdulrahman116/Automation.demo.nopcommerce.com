@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7365881a-1572-4217-bbcb-0602bb5a43ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/emailFriend/SendEmailTestFail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/emailFriend/SendEmailTestFail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ChangePasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MyAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WishlistPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/addProductToWishlist/AddProductToWishlistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/changePassword/ChangePasswordSuccessfullyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testAddReviewSuccessfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testAddReviewSuccessfully.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testEmailFriendPass.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testEmailFriendPass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testLoginSuccessfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testLoginSuccessfully.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testRegisterSuccessfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testRegisterSuccessfully.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testSearchTheProduct.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testSearchTheProduct.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/IPhonePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/IPhonePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/IPhonePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/IPhonePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/emailFriend/SendEmailTestFail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/emailFriend/SendEmailTestFail.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +62,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Abdulrahman Alaa/IdeaProjects/demo.nopcommerce/src/main/java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -54,8 +74,11 @@
       <recent name="pages" />
       <recent name="utils" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Abdulrahman Alaa\IdeaProjects\demo.nopcommerce\src\main\java" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.SendEmailTestFail">
+  <component name="RunManager" selected="TestNG.ChangePasswordSuccessfullyTest">
     <configuration name="AddReviewTestFail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <extension name="coverage">
@@ -73,16 +96,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddReviewTestPass" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChangePasswordSuccessfullyTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="addReview.*" />
+          <option name="PATTERN" value="changePassword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="addReview" />
-      <option name="MAIN_CLASS_NAME" value="addReview.AddReviewTestPass" />
+      <option name="PACKAGE_NAME" value="changePassword" />
+      <option name="MAIN_CLASS_NAME" value="changePassword.ChangePasswordSuccessfullyTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -90,17 +113,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddReviewTestPass.testRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChangePasswordSuccessfullyTest.testChangePasswordSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="addReview.*" />
+          <option name="PATTERN" value="changePassword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="addReview" />
-      <option name="MAIN_CLASS_NAME" value="addReview.AddReviewTestPass" />
-      <option name="METHOD_NAME" value="testRegisterSuccessfully" />
+      <option name="PACKAGE_NAME" value="changePassword" />
+      <option name="MAIN_CLASS_NAME" value="changePassword.ChangePasswordSuccessfullyTest" />
+      <option name="METHOD_NAME" value="testChangePasswordSuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ChangePasswordSuccessfullyTest" />
+        <item itemvalue="TestNG.ChangePasswordSuccessfullyTest.testChangePasswordSuccessfully" />
         <item itemvalue="TestNG.SendEmailTestFail" />
         <item itemvalue="TestNG.SendEmailTestPass" />
         <item itemvalue="TestNG.AddReviewTestFail" />
-        <item itemvalue="TestNG.AddReviewTestPass" />
-        <item itemvalue="TestNG.AddReviewTestPass.testRegisterSuccessfully" />
       </list>
     </recent_temporary>
   </component>

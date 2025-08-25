@@ -9,8 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
-import pages.HomePage;
-
+import pages.*;
 import java.io.IOException;
 import java.lang.reflect.Method;
 
@@ -56,10 +55,10 @@ public class BaseTests {
         homePage = new HomePage(driver);
     }
 
-    /*@BeforeMethod
+    @BeforeMethod
     public void goHome() {
-        driver.get(myWebsite);
-    }*/
+        //driver.get(myWebsite);
+    }
     @AfterMethod
     public void setStatus(Method method, ITestResult result) throws IOException {
         utilTests = new UtilTests(driver);

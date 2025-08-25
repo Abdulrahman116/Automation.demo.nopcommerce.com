@@ -16,6 +16,8 @@ public class IPhonePage extends MethodHandling{
     private By requiredTitleReviewMessage =
             By.xpath("//span[contains(text() ,'Review title is required.')]");
     private By emailFriendButton = By.xpath("//button[contains(text() ,'Email a friend')]");
+    private By wishlistButton = By.id("add-to-wishlist-button-21");
+    private By wishlistLinkText = By.linkText("wishlist");
 
     public IPhonePage(WebDriver driver) {
         super(driver);
@@ -39,6 +41,11 @@ public class IPhonePage extends MethodHandling{
     public EmailFriendPage clickOnEmailFriend(){
         click(emailFriendButton);
         return new EmailFriendPage(driver);
+    }
+    public WishlistPage addProductToWishlist(){
+        click(wishlistButton);
+        click(wishlistLinkText);
+        return new WishlistPage(driver);
     }
     public String getValidationMessage(){
         return getText(reviewSuccessfullyAddedMessage);
