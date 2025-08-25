@@ -11,6 +11,7 @@ public class ChangePasswordPage extends MethodHandling{
     private By confirmNewPasswordTextBox = By.id("ConfirmNewPassword");
     private By changePasswordButton = By.cssSelector(".button-1.change-password-button");
     private By changePasswordSuccessfullyMessage = By.cssSelector(".content");
+    private By changePasswordFailMessage = By.cssSelector(".message-error.validation-summary-errors");
 
 
     public ChangePasswordPage(WebDriver driver) {
@@ -24,5 +25,8 @@ public class ChangePasswordPage extends MethodHandling{
     }
     public String getValidationMessagePass(){
        return getText(changePasswordSuccessfullyMessage);
+    }
+    public String getValidationMessageFail(){
+        return getText(changePasswordFailMessage);
     }
 }

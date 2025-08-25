@@ -5,13 +5,13 @@ import com.github.javafaker.Faker;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.ChangePasswordPage;
-import pages.MyAccountPage;
 import pages.LoginPage;
+import pages.MyAccountPage;
 import pages.RegisterPage;
 
 import static org.testng.AssertJUnit.assertTrue;
 
-public class ChangePasswordSuccessfullyTest extends BaseTests{
+public class ChangePasswordFailTest extends BaseTests{
 
     Faker faker;  String email;  String oldPassword;    String fName;  String lName; String newPassword;
 
@@ -39,14 +39,14 @@ public class ChangePasswordSuccessfullyTest extends BaseTests{
         loginPage.enterEmailAndPassword(email, oldPassword);
     }
     @Test(priority = 3)
-    public void testChangePasswordSuccessfully(){
-
+    public void testChangePasswordFail(){
 
         MyAccountPage myAccountPage = homePage.clickOnMyAccountButton();
         ChangePasswordPage changePasswordPage = myAccountPage.ClicOnChangePasswordLinkText();
-        changePasswordPage.changePasswordPass(oldPassword, newPassword);
-        String actualResult = changePasswordPage.getValidationMessagePass();
-        String expectedResult = "Password was changed";
+        changePasswordPage.changePasswordPass(newPassword, newPassword);
+        String actualResult = changePasswordPage.getValidationMessageFail();
+        String expectedResult = "Old password doesn't match";
         assertTrue(actualResult.contains(expectedResult));
     }
+
 }
