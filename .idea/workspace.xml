@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7365881a-1572-4217-bbcb-0602bb5a43ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/changePassword/ChangePasswordFailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/register/RegisterTDDTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/testChangePasswordSuccessfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testChangePasswordSuccessfully.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ChangePasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ChangePasswordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/changePassword/ChangePasswordSuccessfullyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/changePassword/ChangePasswordSuccessfullyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/changePassword/ChangePasswordSuccessfullyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/changePassword/ChangePasswordSuccessfullyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testEmailFriendFail.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testEmailFriendFail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testLoginSuccessfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testLoginSuccessfully.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testRegisterSuccessfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testRegisterSuccessfully.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/testSearchTheProduct.png" beforeDir="false" afterPath="$PROJECT_DIR$/report/testSearchTheProduct.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Abdulrahman Alaa/IdeaProjects/demo.nopcommerce/src/main/java",
+    "last_opened_file_path": "C:/Users/Abdulrahman Alaa/IdeaProjects/untitled1",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -66,17 +69,17 @@
       <recent name="C:\Users\Abdulrahman Alaa\IdeaProjects\demo.nopcommerce\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ChangePasswordFailTest">
-    <configuration name="ChangePasswordFailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SendEmailTestPass">
+    <configuration name="RegisterTDDTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="changePassword.*" />
+          <option name="PATTERN" value="register.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="changePassword" />
-      <option name="MAIN_CLASS_NAME" value="changePassword.ChangePasswordFailTest" />
+      <option name="PACKAGE_NAME" value="register" />
+      <option name="MAIN_CLASS_NAME" value="register.RegisterTDDTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -84,34 +87,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangePasswordSuccessfullyTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterTDDTest.testRegisterEmailFail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="changePassword.*" />
+          <option name="PATTERN" value="register.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="changePassword" />
-      <option name="MAIN_CLASS_NAME" value="changePassword.ChangePasswordSuccessfullyTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="register" />
+      <option name="MAIN_CLASS_NAME" value="register.RegisterTDDTest" />
+      <option name="METHOD_NAME" value="testRegisterEmailFail" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangePasswordSuccessfullyTest.testChangePasswordSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterTDDTest.testRegisterPasswordFail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="changePassword.*" />
+          <option name="PATTERN" value="register.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="changePassword" />
-      <option name="MAIN_CLASS_NAME" value="changePassword.ChangePasswordSuccessfullyTest" />
-      <option name="METHOD_NAME" value="testChangePasswordSuccessfully" />
+      <option name="PACKAGE_NAME" value="register" />
+      <option name="MAIN_CLASS_NAME" value="register.RegisterTDDTest" />
+      <option name="METHOD_NAME" value="testRegisterPasswordFail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ChangePasswordFailTest" />
-        <item itemvalue="TestNG.ChangePasswordSuccessfullyTest" />
-        <item itemvalue="TestNG.ChangePasswordSuccessfullyTest.testChangePasswordSuccessfully" />
-        <item itemvalue="TestNG.SendEmailTestFail" />
         <item itemvalue="TestNG.SendEmailTestPass" />
+        <item itemvalue="TestNG.RegisterTDDTest" />
+        <item itemvalue="TestNG.SendEmailTestFail" />
+        <item itemvalue="TestNG.RegisterTDDTest.testRegisterPasswordFail" />
+        <item itemvalue="TestNG.RegisterTDDTest.testRegisterEmailFail" />
       </list>
     </recent_temporary>
   </component>
