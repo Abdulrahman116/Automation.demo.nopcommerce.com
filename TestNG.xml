@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Regression" parallel="tests" thread-count="2">
-    <test name="Regression with chrome" parallel="classes" thread-count="4">
-        <parameter name="browser" value="headlesschrome"></parameter>
+<suite name="Regression">
+    <test name="Regression with chrome">
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
+            <class name="changePassword.ChangePasswordSuccessfullyTest"></class>
+            <class name="addProductToWishlist.AddProductToWishlistTest"></class>
+            <class name="changePassword.ChangePasswordFailTest"></class>
             <class name="addReview.AddReviewTestPass"></class>
+            <class name="emailFriend.SendEmailTestPass"></class>
+            <class name="addReview.AddReviewTestFail"></class>
+            <class name="emailFriend.SendEmailTestFail"></class>
+            <class name="checkoutProduct.CheckoutTheProductTest"></class>
         </classes>
     </test>
 </suite>
