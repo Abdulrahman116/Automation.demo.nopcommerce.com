@@ -85,9 +85,14 @@ public class MethodHandling {
     }
 
     protected void selectFromDropdownList(By locator, String visibleText) {
-        waitForElement(locator, 10);
+        waitForClickable(locator, 10);
         select = new Select(driver.findElement(locator));
         select.selectByVisibleText(visibleText);
+    }
+    protected void selectFromDropdownListByValue(By locator, String value) {
+        waitForClickable(locator, 10);
+        select = new Select(driver.findElement(locator));
+        select.selectByValue(value);
     }
 
     protected void acceptAlert() {

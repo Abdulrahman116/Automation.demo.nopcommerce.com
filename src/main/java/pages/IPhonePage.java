@@ -18,6 +18,8 @@ public class IPhonePage extends MethodHandling{
     private By emailFriendButton = By.xpath("//button[contains(text() ,'Email a friend')]");
     private By wishlistButton = By.id("add-to-wishlist-button-21");
     private By wishlistLinkText = By.linkText("wishlist");
+    private By addToCartButton = By.id("add-to-cart-button-21");
+    private By shoppingCartLinkText = By.linkText("shopping cart");
 
     public IPhonePage(WebDriver driver) {
         super(driver);
@@ -46,6 +48,11 @@ public class IPhonePage extends MethodHandling{
         click(wishlistButton);
         click(wishlistLinkText);
         return new WishlistPage(driver);
+    }
+    public ShoppingCartPage addProductToCart(){
+        click(addToCartButton);
+        click(shoppingCartLinkText);
+        return new ShoppingCartPage(driver);
     }
     public String getValidationMessage(){
         return getText(reviewSuccessfullyAddedMessage);

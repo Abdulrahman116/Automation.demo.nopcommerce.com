@@ -67,7 +67,6 @@ public class RegisterPage extends MethodHandling{
     }
 
 
-
     public String getValidationMessagePass(){
        return getText(registerSuccessfullyMessage);
     }
